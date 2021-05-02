@@ -1,5 +1,5 @@
-# our own simple smt example
-# to prove/see unsat
+# first constraint from the paper,
+# expanded out using farkas' lemma
 
 from z3 import *
 
