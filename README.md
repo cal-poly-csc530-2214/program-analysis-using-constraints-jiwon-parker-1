@@ -18,6 +18,7 @@ We worked on this assignment under the impression that lambda 1 and lambda 2 are
 After we got a little more familiar with Z3, we worked towards implementing some of what was in the Gulwani paper. We focused on the first constraint, `true --> I[-50/x]` for our analysis and work.
 
 Our first attempt at this is defined by __gsv_first_constraint_expanded.py__. In this file, we use Z3Py, a python wrapper for Z3, to help us determine satisfying assignments for the mentioned constraint. <br>
+<br />
 ![Expanded Constraint](images/farkas_lemma.png) [1]
 
 We used the expanded form of the constraint, using Farkas' lemma as discussed in lecture, to pass into the solver. Our file prints out the s-expression when transforming the python statements into Z3-recognizable code, and then shows whether or not it is satisfiable. We also show the satisfying assignment of values if it is satisfiable. Here are our results for this: <br>
