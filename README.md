@@ -13,6 +13,9 @@ We had little trouble installing z3 python version at first because some librari
 
 After the installation, we ran simple example from the z3-solver documentation to see how it works (simple_sat.py). This gave us some ideas what calls we should be making to get the results we want to see (i.e. satisfiability, model). Then we created our own simple_smt.py file to test simpler yet similar expression that we want to run later. 
 
+We worked on this assignment under the impression that lambda 1 and lambda 2 are x and y respectively. We aren't as confident if our assumption is correct or not since there were few parts in the paper that we had some trouble grasping.
+
+
 Second, we created a `VersionSpaceAlgebra.py` class to represent the concept of a version space algebra. This class has two attributes representing two different version spaces.
 
 In the `VersionSpaceAlgebra.py` class we provide three methods:
